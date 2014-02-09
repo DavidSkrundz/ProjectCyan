@@ -1,0 +1,58 @@
+﻿Build started 2014-02-08 8:01:33 PM.
+     1>Project "c:\Users\david_000\documents\visual studio 2013\Projects\App2\App2\App2.vcxproj" on node 2 (_GenerateAppxPackage target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_arm\CL.exe /c /I"c:\Users\david_000\documents\visual studio 2013\Projects\App2\App2\\" /I"Generated Files\\" /IARM\Debug\ /Zi /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /Od /Oy- /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"pch.h" /Fp"ARM\Debug\Queue-WindowsStore.pch" /Fo"ARM\Debug\\" /Fd"ARM\Debug\vc120.pdb" /Gd /TP /wd4453 /wd28204 /FU"C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\References\CommonConfiguration\neutral\platform.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /analyze- /errorReport:prompt /bigobj pch.cpp
+         pch.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_arm\CL.exe /c /I"c:\Users\david_000\documents\visual studio 2013\Projects\App2\App2\\" /I"Generated Files\\" /IARM\Debug\ /Zi /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /Od /Oy- /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"ARM\Debug\Queue-WindowsStore.pch" /Fo"ARM\Debug\\" /Fd"ARM\Debug\vc120.pdb" /Gd /TP /wd4453 /wd28204 /FU"C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\References\CommonConfiguration\neutral\platform.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /analyze- /errorReport:prompt /bigobj App.xaml.cpp Common\NavigationHelper.cpp Common\RelayCommand.cpp Common\SuspensionManager.cpp GroupedItemsPage.xaml.cpp GroupDetailPage.xaml.cpp ItemDetailPage.xaml.cpp DataModel\SampleDataSource.cpp "Generated Files\XamlTypeInfo.Impl.g.cpp"
+         App.xaml.cpp
+         NavigationHelper.cpp
+         RelayCommand.cpp
+         SuspensionManager.cpp
+         GroupedItemsPage.xaml.cpp
+         GroupDetailPage.xaml.cpp
+         ItemDetailPage.xaml.cpp
+         SampleDataSource.cpp
+         XamlTypeInfo.Impl.g.cpp
+       CreateWinMD:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_arm\link.exe /ERRORREPORT:PROMPT /OUT:"c:\Users\david_000\documents\visual studio 2013\Projects\App2\ARM\Debug\App2\Queue-WindowsStore.exe" /INCREMENTAL /NOLOGO kernel32.lib /MANIFEST:NO /DEBUG /PDB:"c:\Users\david_000\documents\visual studio 2013\Projects\App2\ARM\Debug\App2\Queue-WindowsStore.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /APPCONTAINER /WINMD:ONLY /WINMDFILE:"c:\Users\david_000\documents\visual studio 2013\Projects\App2\ARM\Debug\App2\App2.winmd" /DYNAMICBASE /NXCOMPAT /MACHINE:ARM ARM\Debug\App.xaml.obj
+         ARM\Debug\NavigationHelper.obj
+         ARM\Debug\RelayCommand.obj
+         ARM\Debug\SuspensionManager.obj
+         ARM\Debug\GroupedItemsPage.xaml.obj
+         ARM\Debug\GroupDetailPage.xaml.obj
+         ARM\Debug\ItemDetailPage.xaml.obj
+         ARM\Debug\SampleDataSource.obj
+         ARM\Debug\pch.obj
+         ARM\Debug\XamlTypeInfo.Impl.g.obj
+       CompileXamlGeneratedFiles:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_arm\CL.exe /c /I"c:\Users\david_000\documents\visual studio 2013\Projects\App2\App2\\" /I"Generated Files\\" /IARM\Debug\ /Zi /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /Od /Oy- /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"ARM\Debug\Queue-WindowsStore.pch" /Fo"ARM\Debug\\" /Fd"ARM\Debug\vc120.pdb" /Gd /TP /wd4453 /wd28204 /FU"C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\References\CommonConfiguration\neutral\platform.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /analyze- /errorReport:prompt /bigobj "Generated Files\XamlTypeInfo.g.cpp"
+         XamlTypeInfo.g.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_arm\link.exe /ERRORREPORT:PROMPT /OUT:"c:\Users\david_000\documents\visual studio 2013\Projects\App2\ARM\Debug\App2\Queue-WindowsStore.exe" /INCREMENTAL /NOLOGO kernel32.lib /MANIFEST:NO /DEBUG /PDB:"c:\Users\david_000\documents\visual studio 2013\Projects\App2\ARM\Debug\App2\Queue-WindowsStore.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /APPCONTAINER /WINMD:NO /WINMDFILE:"c:\Users\david_000\documents\visual studio 2013\Projects\App2\ARM\Debug\App2\App2.winmd" /DYNAMICBASE /NXCOMPAT /MACHINE:ARM ARM\Debug\App.xaml.obj
+         ARM\Debug\NavigationHelper.obj
+         ARM\Debug\RelayCommand.obj
+         ARM\Debug\SuspensionManager.obj
+         ARM\Debug\GroupedItemsPage.xaml.obj
+         ARM\Debug\GroupDetailPage.xaml.obj
+         ARM\Debug\ItemDetailPage.xaml.obj
+         ARM\Debug\SampleDataSource.obj
+         ARM\Debug\pch.obj
+         ARM\Debug\XamlTypeInfo.Impl.g.obj
+         ARM\Debug\XamlTypeInfo.g.obj
+         App2.vcxproj -> c:\Users\david_000\documents\visual studio 2013\Projects\App2\ARM\Debug\App2\Queue-WindowsStore.exe
+       _GenerateProjectPriFileCore:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x64\MakePri.exe New -ProjectRoot "c:\Users\david_000\documents\visual studio 2013\Projects\App2\App2\\" -ConfigXml ARM\Debug\priconfig.xml -OutputFile "c:\Users\david_000\documents\visual studio 2013\Projects\App2\ARM\Debug\App2\resources.pri" -IndexName f6f20482-8071-4753-9f4f-86dc79ce3e3b -Verbose -Overwrite  
+       _GenerateAppxPackageFile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x64\MakeAppx.exe pack /l /h sha256 /f ARM\Debug\package.map.txt /o /p "c:\Users\david_000\documents\visual studio 2013\Projects\App2\AppPackages\Queue-WindowsStore\Queue-WindowsStore_1.0.0.0_ARM_Debug_Test\Queue-WindowsStore_1.0.0.0_ARM_Debug.appx"  
+         App2 -> c:\Users\david_000\documents\visual studio 2013\Projects\App2\AppPackages\Queue-WindowsStore\Queue-WindowsStore_1.0.0.0_ARM_Debug_Test\Queue-WindowsStore_1.0.0.0_ARM_Debug.appx
+       _GenerateAppxSymbolPackage:
+         C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v12.0\AppxPackage\PDBCopy.exe "c:\Users\david_000\documents\visual studio 2013\Projects\App2\ARM\Debug\App2\Queue-WindowsStore.pdb" ARM\Debug\Stripped\Queue-WindowsStore.pdb -p 
+         App2 -> c:\Users\david_000\documents\visual studio 2013\Projects\App2\AppPackages\Queue-WindowsStore\Queue-WindowsStore_1.0.0.0_ARM_Debug_Test\Queue-WindowsStore_1.0.0.0_ARM_Debug.appxsym
+       _CreateAppStoreContainer:
+         App2 -> c:\Users\david_000\documents\visual studio 2013\Projects\App2\AppPackages\Queue-WindowsStore\Queue-WindowsStore_1.0.0.0_ARM_Debug.appxupload
+         Your package has been successfully created.
+     1>Done Building Project "c:\Users\david_000\documents\visual studio 2013\Projects\App2\App2\App2.vcxproj" (_GenerateAppxPackage target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:24.85
